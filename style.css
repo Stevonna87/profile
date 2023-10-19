@@ -1,0 +1,125 @@
+body {
+  background-color: #238123;
+  color: #d88ecc;
+  font-family: 'Shadows Into Light';
+  font-size: 24px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Shadows Into Light';
+}
+h1 {
+  color: #238123;
+  font-size: 42px;
+  font-weight: 800;
+}
+h2 {
+  color: #c01bb5;
+  font-size: 24px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Shadows Into Light', sans-serif;
+  text-decoration: none;
+  color: #d2d7b3;
+  font-weight: 4500;
+  font-size: 22px;
+}
+a:hover {
+  color: rgb(2, 25, 58);
+}
+body {
+  background: #F7F9FC;
+  color: #0b9378;
+  font-family: 'Shadows Into Light', serif;
+  font-size: 21px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: 'Shadows Into Light', sans-serif;
+}
+h1 {
+  color: #238123;
+  font-size: 48px;
+  font-weight: 900;
+}
+h2 {
+  color: #0b9378;
+  font-size: 24px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+a {
+  font-family: 'Shadows Into Light';
+  text-decoration: none;
+  color: #e2422d;
+  font-weight: 600;
+  font-size: 20px;
+}
+a:hover {
+  color: rgb(2, 3, 79);
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: rgb(220, 54, 8);
+  color: white;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: rgb(228, 50, 0);
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
